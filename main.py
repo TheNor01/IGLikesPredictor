@@ -31,8 +31,8 @@ import keras as kf
 from InstagramAPI import InstagramAPI
 
 
-username="aldo.fiorito"
-API = InstagramAPI(username, "spaceboy99?")
+username="#YOURUSERNAME"
+API = InstagramAPI(username, "#YOURPW")
 API.login()
 #API.getProfileData()
 
